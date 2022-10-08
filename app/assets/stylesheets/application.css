@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+.kittens{
+    background-color:lightblue;
+    color:darkorange;
+}
+
+a{
+    color: darkorange;
+    font-size: 26px;
+    font-family:Arial, Helvetica, sans-serif;
+}

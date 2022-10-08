@@ -1,12 +1,11 @@
-<p style="color: green"><%= notice %></p>
-
-<h1>Kittens</h1>
+<h1>Rate this Kitten.Org</h1>
 
 <div id="kittens">
   <% @kittens.each do |kitten| %>
     <%= render kitten %>
     <p>
       <%= link_to "Show this kitten", kitten %>
+      <%= button_to "Destroy this kitten", @kitten, method: :delete %>
     </p>
   <% end %>
 </div>
